@@ -1,0 +1,76 @@
+# Part G: Reconnaissance Report
+
+## 1. Target Information
+
+**Website Name:** Kristu Jayanti University
+
+**URL:** https://www.kristujayanti.edu.in
+
+**Reason for Selection:**
+The official website of Kristu Jayanti University was selected because it is a publicly accessible educational website suitable for passive reconnaissance. The assessment was limited to publicly available information without attempting any unauthorized access or exploitation.
+
+---
+
+## 2. WHOIS Results
+
+* **Domain Name:** kristujayanti.edu.in
+* **Registrar:** ERNET India
+* **Registration Date:** 24 April 2003
+* **Expiry Date:** 24 April 2028
+* **Name Servers:** ns1.kristujayanti.edu.in, ns2.kristujayanti.edu.in
+* **Domain Status:** clientTransferProhibited
+
+---
+
+## 3. DNS Information
+
+| Record Type | Information                                                    |
+| ----------- | -------------------------------------------------------------- |
+| A Record    | IP address of the web server hosting the website               |
+| MX Record   | Mail server responsible for handling the university's email    |
+| NS Record   | ns1.kristujayanti.edu.in, ns2.kristujayanti.edu.in             |
+| TXT Record  | Contains SPF and other verification records for email security |
+
+---
+
+## 4. Technologies Identified
+
+| Technology           | Identified             |
+| -------------------- | ---------------------- |
+| Web Server           | Apache/2.4.41 (Ubuntu) |
+| CMS                  | Custom CMS             |
+| Programming Language | PHP                    |
+| JavaScript Library   | jQuery                 |
+| CDN / Cloud Service  | AWS Load Balancer      |
+
+---
+
+## 5. HTTP Security Headers
+
+| Header                           | Present |
+| -------------------------------- | ------- |
+| Content-Security-Policy (CSP)    | No      |
+| X-Frame-Options                  | No      |
+| X-Content-Type-Options           | No      |
+| Strict-Transport-Security (HSTS) | No      |
+| Referrer-Policy                  | No      |
+
+---
+
+## 6. Robots.txt & Sitemap Findings
+
+* The website provides a **robots.txt** file that contains instructions for search engine crawlers.
+* The website also provides a **sitemap.xml** file that helps search engines discover and index the website's pages.
+* These files assist with search engine optimization (SEO) and website indexing but do not provide access to restricted content.
+
+---
+
+## 7. Overall Observations
+
+The reconnaissance phase collected publicly available information about the target website without interacting with protected resources. The WHOIS lookup provided domain registration details, while DNS enumeration identified records related to web hosting and email services. Technology identification showed that the website uses Apache on Ubuntu, PHP, jQuery, and AWS infrastructure. The HTTP Security Headers analysis revealed that several recommended security headers, including CSP, HSTS, and X-Frame-Options, were not configured. Although the website offers robots.txt and sitemap.xml files to support search engine indexing, implementing additional HTTP security headers would improve its overall security posture.
+
+---
+
+# Conclusion 
+
+The reconnaissance phase demonstrated how much useful information can be gathered from publicly available sources without performing any intrusive actions. By using WHOIS lookup, DNS enumeration, technology identification tools, and HTTP security header analysis, I learned how to collect important details about a website's domain, hosting infrastructure, technologies, and security configuration. I also understood the purpose of DNS records such as A, MX, NS, and TXT records, and how they support website functionality and email services. The analysis of HTTP security headers highlighted the importance of implementing protective mechanisms such as Content Security Policy, Strict Transport Security, and X-Frame-Options to defend against common web attacks. Additionally, examining the robots.txt and sitemap.xml files showed how websites communicate with search engines to improve indexing and search visibility. Overall, this exercise strengthened my understanding of passive reconnaissance techniques, demonstrated the value of collecting publicly available information for security assessments, and reinforced the importance of following ethical practices by limiting the assessment to authorized, non-intrusive reconnaissance activities.

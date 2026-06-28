@@ -1,0 +1,10 @@
+Research Notes
+
+* Selected Kristu Jayanti University as the target website.
+* Performed WHOIS lookup to obtain domain registration information.
+* Identified DNS records including A, MX, NS, and TXT.
+* Used Wappalyzer to identify web technologies.
+* Used SecurityHeaders.com to analyze HTTP security headers.
+* Reviewed robots.txt and sitemap.xml.
+* Collected screenshots as evidence.
+* Learned how passive reconnaissance gathers publicly available information without interacting with protected resources.
